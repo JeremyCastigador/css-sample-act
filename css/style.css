@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {font-family: arial;}
+.main-container{
+	max-width: 1440px; /* Adjust as needed for your design */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 0 20px; /* Adds padding on the sides for smaller screens */
+  width: 100%; /* Ensures it uses full width on very small screens */
+}
+
+.logo{
+    margin-left: 90px;
+    margin-right: 119px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    gap: 5px;
+}
+
+.container-yellow {
+    background-color: #EAAE00;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 32px;
+    color: white;
+    font-size: 25px;
+    gap: 5px;
+}
+
+.container div {
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navi{
+    margin-top: 15px;
+    font-weight: 700;
+    margin-left: 150px;
+}
+
+.navi li {
+	list-style: none;
+    float: left;
+    width: 200px;
+}
+
+.container_yellow {
+	background: #fcc302;
+}
+
+.container_white {
+	background: white;
+}
+
+.main-title {
+    font-size: 70px;
+    font-weight: 750;
+    text-align: left;
+    margin-top: 140px;
+    margin-left: 99px;
+    margin-bottom: -54px;
+    color: white;
+}
+
+.description {
+    font-size: 39px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 99px;
+    margin-left: 99px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.main-title2 {
+    font-size: 70px;
+    font-weight: 750;
+    text-align: left;
+    margin-top: 140px;
+    margin-left: 99px;
+    margin-bottom: -54px;
+    color: black;
+}
+
+.description2 {
+    font-size: 39px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 99px;
+    margin-left: 99px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.main-title3 {
+    font-size: 70px;
+    font-weight: 750;
+    padding-top: 62px;
+    padding-bottom: -30px;
+    text-align: center;
+    color: white;
+}
+
+.description3 {
+    font-size: 39px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 99px;
+    margin-left: 99px;
+    margin-right: 85px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    background: #fcc302;
+    margin-top: 80px;
+}
+
+.sub-Title{
+    font-size: 42px;
+    margin-right: 54px;
+    margin-top: 15px;
+    margin-bottom: -77px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.sub-Description{
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 89px;
+    margin-right: 52px;
+    margin-bottom: 73px;
+    color: white;
+}
+
+.nav-btn{
+    color: white;
+}
+
+.nav-btn:hover{
+    border: 2px solid #00bec9;
+    border-radius: 9px;
+    padding: 5px;
+    color: #00bec9;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid white;
+    margin-left: -147px;
+    margin-right: 173px;
+    border-radius: 9px;
+}
+
+.btn:hover{
+    background: #00bec9;
+	border:0;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+    margin-left: -247px;
+    margin-right: 164px;
+    border-radius: 9px;
+}
+
+.btn2:hover{
+    background: #00bec9;
+	border:0;
+}
+
+.col1{
+    width: 33%;
+    float: left;
+    margin-left: 72px;
+}
